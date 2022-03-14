@@ -30,4 +30,8 @@ public class Medicament {
         this.pret = pret;
         this.categorii = categorii;
     }
+
+    public Set<Categorie> getCategorii() {
+        return categorii;
+    }
 }
